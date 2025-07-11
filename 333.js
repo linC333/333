@@ -17,6 +17,8 @@ function calculateSum() {
     } else {
         console.log("小于等于100"); 
     }
-    return sum;
+    return sum; 
+    // 大于100
+    // 小于等于100
 }   
 console.log(calculateSum()); // 输出结果为5050
