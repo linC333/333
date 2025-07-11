@@ -12,6 +12,11 @@ function calculateSum() {
     for (let i = 1; i <= 100; i++) {
         sum += i;
     }
+        if (sum > 100) {
+        console.log("大于100");
+    } else {
+        console.log("小于等于100"); 
+    }
     return sum;
-}
+}   
 console.log(calculateSum()); // 输出结果为5050
